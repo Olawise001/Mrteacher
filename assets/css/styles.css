@@ -188,3 +188,65 @@ form textarea {
 form button {
   cursor: pointer;
 }
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+
+  header h1 {
+    font-size: 22px;
+  }
+
+  header p {
+    font-size: 13px;
+  }
+
+  nav {
+    margin-top: 10px;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 6px 10px 6px 0;
+    font-size: 13px;
+  }
+
+  .hero h2 {
+    font-size: 24px;
+  }
+
+  section h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .container {
+    width: 92%;
+  }
+
+  .card {
+    padding: 16px;
+  }
+
+  form input,
+  form textarea {
+    font-size: 15px;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+#successMessage {
+  background-color: #e6f4ea;
+  padding: 12px;
+  border-radius: 4px;
+}
+.card h4 {
+  margin-top: 15px;
+  margin-bottom: 8px;
+  color: #1f3a5f;
+  font-size: 16px;
+}
